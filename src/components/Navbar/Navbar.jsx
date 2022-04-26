@@ -71,6 +71,15 @@ const PrimarySearchAppBar = ({ totalItems }) => {
           </Typography>
           <Typography
             component={Link}
+            to="/about"
+            variant="h6"
+            className={classes.title}
+            color="inherit"
+          >
+            About Us{" "}
+          </Typography>
+          <Typography
+            component={Link}
             to="/products"
             variant="h6"
             className={classes.title}

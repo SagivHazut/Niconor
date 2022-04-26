@@ -9,7 +9,7 @@ import {
 import Homepage from "./components/pages/Homepage";
 import { Navbar, Products, Cart, Checkout } from "./components";
 import { commerce } from "./lib/commerce";
-
+import AboutPage from "./components/pages/AboutPage";
 const App = () => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [products, setProducts] = useState([]);
@@ -98,6 +98,7 @@ const App = () => {
           />
         </Route>
         <Route exact path="/home" component={Homepage}></Route>
+        <Route path="/about" component={AboutPage}></Route>
         <Route exact path="/cart">
           <Cart
             cart={cart}

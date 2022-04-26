@@ -17,7 +17,7 @@ import AddressForm from "../AddressForm";
 import PaymentForm from "../PaymentForm";
 import useStyles from "./styles";
 
-const steps = ["Shipping address", "Payment details"];
+const steps = ["משלוח", "תשלום"];
 
 const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
   const [checkoutToken, setCheckoutToken] = useState(null);
