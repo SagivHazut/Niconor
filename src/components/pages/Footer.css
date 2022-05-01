@@ -1,0 +1,32 @@
+.footer {
+  background-color: #eeeaea;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: -5%;
+  position: sticky;
+  bottom: 0;
+  text-align: right;
+}
+.footer h1 {
+  text-align: left;
+  position: relative;
+  height: 0px;
+  margin-left: 2%;
+  top: 7px;
+}
+.footer h1 img {
+  text-align: left;
+  position: relative;
+  top: 10px;
+}
+.footer img {
+  width: 1.5vw;
+  height: 3vh;
+  margin: 0.2%;
+}
+
+.contact a {
+  font-size: 1.3em;
+  color: black;
+}

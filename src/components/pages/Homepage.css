@@ -1,12 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Pacifico&display=swap");
 
-.carousel .thumb {
+.main-slide .thumb {
   position: absolute;
   right: 0px;
   width: 300px;
   border: 3px solid #73ad21;
   padding: 10px;
 }
+.imagetwo {
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+}
+.seconed-slide .thumb {
+  width: 6vw;
+  height: 6vh;
+  margin: 0 auto;
+}
+.seconed-slide .thumbs-wrapper {
+  text-align: center;
+}
+
 .nav-links {
   font-size: 1em;
   font-family: "Beau Rivage", cursive;
@@ -35,7 +49,6 @@
   display: block;
   width: 100%;
   height: auto;
-  margin-top: 5%;
 }
 
 .overlay {
@@ -53,6 +66,7 @@
   position: relative;
   width: 80%;
   margin: 0 auto;
+  margin: 0.5%;
 }
 .imagesfirstrow {
   justify-items: space-between;
@@ -77,12 +91,21 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 @media only screen and (max-width: 1020px) {
   .imagesfirstrow {
     display: block;
     margin: 0 auto;
   }
+  .container {
+    margin: 0 auto;
+  }
   .image {
-    margin-bottom: 5px;
+    margin-bottom: 4%;
+  }
+  .imagetwo {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
   }
 }

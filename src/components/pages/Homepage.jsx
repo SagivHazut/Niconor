@@ -187,6 +187,29 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+        <div className="somfey">
+          <h1>פתרונות לבית חכם מבית Somfy, השותפים שלכם בבית</h1>
+        </div>
+        <Carousel
+          className="seconed-slide"
+          showThumbs={true}
+          showStatus={false}
+          dynamicHeight={false}
+          showArrows={false}
+          showIndicators={false}
+        >
+          <div>
+            <div className="imagetwo">
+              <img src={log1} alt="" />
+            </div>
+          </div>
+          <div className="imagetwo">
+            <img src={log2} alt="" />
+          </div>
+          <div className="imagetwo">
+            <img src={log3} alt="" />
+          </div>
+        </Carousel>
       </div>
     </Fragment>
   );

@@ -6,6 +6,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
+import Footer from "./components/pages/Footer";
 import Homepage from "./components/pages/Homepage";
 import { Navbar, Products, Cart, Checkout } from "./components";
 import { commerce } from "./lib/commerce";
@@ -116,6 +117,7 @@ const App = () => {
           />
         </Route>
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 };
