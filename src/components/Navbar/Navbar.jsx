@@ -54,6 +54,39 @@ const PrimarySearchAppBar = ({ totalItems }) => {
     <>
       <AppBar position="fixed" className={classes.appBar} color="inherit">
         <Toolbar>
+          <div className={classes.grow}>
+            <div className={classes.button}>
+              <IconButton
+                component={Link}
+                to="/cart"
+                aria-label="Show cart items"
+                color="inherit"
+              >
+                <Badge badgeContent={totalItems} color="secondary">
+                  <ShoppingCart />
+                </Badge>
+              </IconButton>
+            </div>
+          </div>
+          <Typography
+            component={Link}
+            to="/products"
+            variant="h6"
+            className={classes.title}
+            color="inherit"
+          >
+            חנות
+          </Typography>
+          <Typography
+            component={Link}
+            to="/about"
+            variant="h6"
+            className={classes.title}
+            color="inherit"
+          >
+            אודות
+          </Typography>
+
           <Typography
             component={Link}
             to="/home"
@@ -66,41 +99,9 @@ const PrimarySearchAppBar = ({ totalItems }) => {
               alt="Niconor"
               height="25px"
               className={classes.image}
-            />{" "}
-            Niconor
+            />
+            ניקנור
           </Typography>
-          <Typography
-            component={Link}
-            to="/about"
-            variant="h6"
-            className={classes.title}
-            color="inherit"
-          >
-            About Us{" "}
-          </Typography>
-          <Typography
-            component={Link}
-            to="/products"
-            variant="h6"
-            className={classes.title}
-            color="inherit"
-          >
-            Store
-          </Typography>
-          <div className={classes.grow} />
-
-          <div className={classes.button}>
-            <IconButton
-              component={Link}
-              to="/cart"
-              aria-label="Show cart items"
-              color="inherit"
-            >
-              <Badge badgeContent={totalItems} color="secondary">
-                <ShoppingCart />
-              </Badge>
-            </IconButton>
-          </div>
         </Toolbar>
       </AppBar>
       {renderMobileMenu}

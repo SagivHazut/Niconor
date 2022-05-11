@@ -81,10 +81,10 @@ const HomePage = () => {
         </div>
         <div className="images">
           <div className="imagesfirstrow">
-            <div class="container">
+            <div className="container">
               <img src={log3} alt="" className="image"></img>
-              <div class="overlay">
-                <div class="text">
+              <div className="overlay">
+                <div className="text">
                   <p> Hello World</p>
                   <NavLink
                     className="nav-links"
@@ -97,10 +97,10 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            <div class="container">
+            <div className="container">
               <img src={log3} alt="" className="image"></img>
-              <div class="overlay">
-                <div class="text">
+              <div className="overlay">
+                <div className="text">
                   {" "}
                   <p> Hello World</p>
                   <NavLink
@@ -114,10 +114,10 @@ const HomePage = () => {
                 </div>
               </div>
             </div>{" "}
-            <div class="container">
+            <div className="container">
               <img src={log3} alt="" className="image"></img>
-              <div class="overlay">
-                <div class="text">
+              <div className="overlay">
+                <div className="text">
                   {" "}
                   <p> Hello World</p>
                   <NavLink
@@ -134,10 +134,10 @@ const HomePage = () => {
           </div>
 
           <div className="imagesfirstrow">
-            <div class="container">
+            <div className="container">
               <img src={log3} alt="" className="image"></img>
-              <div class="overlay">
-                <div class="text">
+              <div className="overlay">
+                <div className="text">
                   {" "}
                   <p> Hello World</p>
                   <NavLink
@@ -151,10 +151,10 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
-            <div class="container">
+            <div className="container">
               <img src={log3} alt="" className="image"></img>
-              <div class="overlay">
-                <div class="text">
+              <div className="overlay">
+                <div className="text">
                   {" "}
                   <p> Hello World</p>
                   <NavLink
@@ -168,10 +168,10 @@ const HomePage = () => {
                 </div>
               </div>
             </div>{" "}
-            <div class="container">
+            <div className="container">
               <img src={log3} alt="" className="image"></img>
-              <div class="overlay">
-                <div class="text">
+              <div className="overlay">
+                <div className="text">
                   {" "}
                   <p> Hello World</p>
                   <NavLink
@@ -205,6 +205,12 @@ const HomePage = () => {
           </div>
           <div className="imagetwo">
             <img src={log2} alt="" />
+          </div>
+          <div className="imagetwo">
+            <img src={log3} alt="" />
+          </div>
+          <div className="imagetwo">
+            <img src={log3} alt="" />
           </div>
           <div className="imagetwo">
             <img src={log3} alt="" />

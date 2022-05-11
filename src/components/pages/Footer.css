@@ -13,15 +13,15 @@
   position: relative;
   height: 0px;
   margin-left: 2%;
-  top: 7px;
+  top: 14px;
 }
 .footer h1 img {
   text-align: left;
   position: relative;
-  top: 10px;
+  top: 8px;
 }
 .footer img {
-  width: 1.5vw;
+  width: 30px;
   height: 3vh;
   margin: 0.2%;
 }
